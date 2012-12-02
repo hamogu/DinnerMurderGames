@@ -14,7 +14,7 @@
 
 \fancyhead{}
 \fancyhead[LE,RO]{\thepage}
-\fancyhead[RE]{Rollenbuch XXX}
+\fancyhead[RE]{rolebook AAA}
 \fancyhead[LO]{\leftmark}
 \fancyfoot[CE,CO]{}
 \fancypagestyle{plain}{
@@ -37,73 +37,73 @@
 \setcounter{secnumdepth}{-2}
 
 
-\newcommand{\Stop}{\fbox{\parbox{\textwidth}{\begin{center}\bf \Large STOPP:\\ Nicht weiterlesen, bis du dazu aufgefordert wirst!\end{center}}} \newpage}
+\newcommand{\Stop}{\fbox{\parbox{\textwidth}{\begin{center}\bf \Large STOP:\\ Do not continue to read until instructed by host!\end{center}}} \newpage}
 \begin{document}
 
 \begin{center}
 \LARGE
-Rollenbuch\\ \vspace{1cm}
-XXX\\ \vspace{1cm}
+rolebook\\ \vspace{1cm}
+AAA\\ \vspace{1cm}
 Titel
 \normalsize
 \end{center}
 \newpage
 
 \pagestyle{fancy}
-\section{Spielregeln}
-\input{regeln}
+\section{rules of the game}
+\input{rules}
 \newpage
 
-\section{Einleitung}
-\input{Einleitung}
+\section{Introduction}
+\input{intro}
 
-\section{Verdächtige}
+\section{suspects}
 
-\subsection{Ingolf Kleinen}
-\input{person1_allg}
+\subsection{Name 1}
+\input{person1_general}
 %\subsection{Hartmut Fuchs}
 %\input{Hartmut_allg}
 
+% list all suspects here.
 
 
-\section{Das bist Du}
-\subsection{Was alle sehen}
-\input{XXX_allg}
-\subsection{Was nur du weißt}
-\input{XXX_geheim}
+\section{This is you}
+\subsection{What the world knows}
+\input{XXX_general}
+\subsection{Your secret past and present}
+\input{XXX_secret}
 \vspace{3mm} \\ \Stop
 
 
-\section{1. Runde}
-\input{R1_Gespraech}\newpage
-\subsection{Hinweise für diese Runde:}
+\section{1. round}
+\input{R1_discussion}\newpage
+\subsection{Facts and hints for this round:}
 \begin{itemize}\input{XXX_R1}\end{itemize}
 \Stop
 
-\section{2. Runde}
-\input{R2_Gespraech}\newpage
-\subsection{Hinweise für diese Runde:}
+\section{2. round}
+\input{R2_discussion}\newpage
+\subsection{Facts and hints for this round:}
 \begin{itemize}\input{XXX_R2}\end{itemize}
 \Stop
 
-\section{3. Runde}
-\input{R3_Gespraech}\newpage
-\subsection{Hinweise für diese Runde:}
+\section{3. round}
+\input{R3_discussion}\newpage
+\subsection{Facts and hints for this round:}
 \begin{itemize}\input{XXX_R3}\end{itemize}
 \Stop
 
-\section{Zusammenfassung}
-\input{Motive}
+\section{Summary}
+\input{motives}
 \vspace{1.5cm}
-Nun sind hoffentlich alle Tatsachen bekannt. Jeder Spieler muss jetzt sein Votum abgeben, wer der Täter war, indem er klar und deutlich einen Namen sagt oder auf einem Zettel notiert.
-Erst wenn alle Spieler sich festgelegt haben, darf eine Diskussion über den Tatablauf, die Motive oder anderes beginnen.\\
+By now all facts in this case should have been revealed. And if not - best of luck! At this point all players should makea guess and accuse their prime suspect. After everybody has made his or her choice, it's often fun to have some wild discussion before reading on the reveal the authours' solution.\\
 \Stop
 
-\section{Auflösung}
-\input{Tathergang}
+\section{Solution}
+\input{solution}
 
 \vspace{1.5cm}
-Hinweise und Verbesserungsvorschläge bitte an uns:\\
+Template design:\\
 \texttt{moritz.guenther@gmx.de \\ silkeopitz@web.de}\\
 Version: \today
 \end{document}
